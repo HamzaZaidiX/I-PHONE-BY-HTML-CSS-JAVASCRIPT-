@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock screen</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+		<div>
+			<h1 id="title">iPhone 12</h1>
+			<p id="sub">Recreated in HTML, CSS, JS</p>
+		</div>
+		
+		<div class="main">
+			<div class="side left">
+				<div class="dash left top"></div>
+
+				<div class="audio">
+					<div class="side ringer"></div>
+					<div class="side volume up"></div>
+					<div class="side volume down"></div>
+				</div>
+
+				<div class="dash left bottom"></div>
+			</div>
+
+			<div class="iphone" id="iphone">
+				<div class="dash top"></div>
+
+				<div class="inner" id="inner">
+					<div class="top">
+						<div class="left">
+							<!-- <p>Spectrum</p> -->
+						</div>
+						<div class="center" id="center">	
+							<div class="mic" id="mic">
+							</div>
+
+							<div class="cam">
+							</div>
+						</div>
+
+						<div class="right">
+							<div class="container">
+								<ion-icon name="cellular" class="cellular"></ion-icon>
+
+								<img src="Images/Icons/wifi.png" class="wifi">
+
+								<img src="Images/Icons/battery.png" class="battery">
+							</div>
+
+							<!-- <div class="line"></div> -->
+						</div>
+					</div>
+
+					<div class="content" id="content">
+						<img src="Images/Icons/lock.png" class="lock">
+
+						<h1 class="time">9:41</h1>
+
+						<h1 class="date">Tuesday, January 9</h1>
+					</div>
+
+					<div class="buttons" id="bottom">
+						<button class="torch" id="torchBtn" onclick="changeColorTorch()">
+							<img src="Images/Icons/torch.png" id="torchImg">
+						</button>
+						
+						<a href="/camera.html">
+							<button class="camera" id="cameraBtn">
+								<img src="Images/Icons/camera.png" id="cameraImg">
+							</button>
+						</a>
+					</div>
+
+					<p class="swipe" id="swipe">Touch bar to unlock</p>
+
+					<a href="/passcode.html">
+						<div class="home"></div>
+					</a>
+
+					<div class="dash bottom"></div>
+				</div>
+			</div>
+			
+			<div class="side right">
+				<div class="dash right top"></div>
+
+				<div class="side power" onclick="turnOff()"></div>
+
+				<div class="dash right bottom"></div>
+			</div>
+		</div>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+<style>
+
+
+</style>
+
+
+
+
+
+
+
+<script>
+
+</script>

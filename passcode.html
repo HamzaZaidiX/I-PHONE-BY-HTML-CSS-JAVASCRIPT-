@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passcode</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+		<div>
+			<h1 id="title">iPhone 12</h1>
+			<p id="sub">Recreated in HTML, CSS, JS</p>
+		</div>
+		
+		<div class="main">
+			<div class="side left">
+				<div class="dash left top"></div>
+
+				<div class="audio">
+					<div class="side ringer"></div>
+					<div class="side volume up"></div>
+					<div class="side volume down"></div>
+				</div>
+
+				<div class="dash left bottom"></div>
+			</div>
+
+			<div class="iphone passcode" id="iphone">
+				<div class="dash top"></div>
+
+				<div class="inner passcode" id="inner">
+					<div class="top">
+						<div class="left"></div>
+
+						<div class="center" id="center">	
+							<div class="mic" id="mic">
+							</div>
+
+							<div class="cam">
+							</div>
+						</div>
+
+						<div class="right">
+							<ion-icon name="cellular" class="cellular"></ion-icon>
+
+							<img src="Images/Icons/wifi.png" class="wifi">
+
+							<img src="Images/Icons/battery.png" class="battery">
+						</div>
+					</div>
+
+					<div class="content">
+						<img src="Images/Icons/lock.png" class="lock">
+
+						<div class="passcode">
+							<h3>Enter Passcode</h3>
+
+							<div class="dots">
+								<div class="dot" id="dot1"></div>
+
+								<div class="dot" id="dot2"></div>
+
+								<div class="dot" id="dot3"></div>
+
+								<div class="dot" id="dot4"></div>
+
+								<div class="dot" id="dot5"></div>
+
+								<div class="dot" id="dot6"></div>
+							</div>
+
+							<div class="keypad">
+								<button class="key" onclick="addFilledDot()">
+									<div class="num alone">1</div>
+									<div class="letters"></div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">2</div>
+									<div class="letters">ABC</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">3</div>
+									<div class="letters">DEF</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">4</div>
+									<div class="letters">GHI</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">5</div>
+									<div class="letters">JKL</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">6</div>
+									<div class="letters">MNO</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">7</div>
+									<div class="letters">PQRS</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">8</div>
+									<div class="letters">TUV</div>
+								</button>
+
+								<button class="key" onclick="addFilledDot()">
+									<div class="num">9</div>
+									<div class="letters">WXYZ</div>
+								</button>
+
+								<button class="key zero" onclick="addFilledDot()">
+									<div class="num">0</div>
+									<div class="letters"></div>
+								</button>
+							</div>
+						</div>
+
+						<div class="bottom"> 
+							<p>Emergency</p>
+
+							<a href="/index.html">
+								<p>Cancel</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="dash bottom"></div>
+				</div>
+			</div>
+			
+			<div class="side right">
+				<div class="dash right top"></div>
+
+				<div class="side power" onclick="turnOffLock()"></div>
+
+				<div class="dash right bottom"></div>
+			</div>
+		</div>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+<style>
+
+
+.iphone.passcode .inner.passcode {
+	background-color: #191b2c;
+	border-radius: 30px;
+}
+
+.iphone .inner .content .passcode {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.iphone .inner .content .passcode h3 {
+	margin-top: 60px;
+	font-size: 25px;
+}
+
+.iphone .inner .content .passcode .dots {
+	margin-top: 20px;
+	display: flex;
+	gap: 25px;
+}
+
+.iphone .inner .content .passcode .dots .dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	transition-duration: 0.1s;
+}
+
+.iphone .inner .content .passcode .keypad {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 90%;
+	margin-top: 80px;
+}
+
+.iphone .inner .content .passcode .keypad .key {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: #5c5e6c;
+	border: none;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	margin-top: -15px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.iphone .inner .content .passcode .keypad .key:active {
+	background-color: #999cb4;
+}
+
+.iphone .inner .content .passcode .keypad .key .num {
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.iphone .inner .content .passcode .keypad .key .num.alone {
+	padding-bottom: 10px
+}
+
+.iphone .inner .content .passcode .keypad .key .letters {
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+
+.iphone .inner .content .bottom {
+	margin-top: 100px;
+	display: flex;
+	font-size: 16px;
+	gap: 170px;
+}
+
+.iphone .inner .content .bottom p {
+	cursor: pointer;
+}
+
+.iphone .inner .content .bottom p:active {	
+	color: #696a75;
+}
+
+
+.iphone.passcode .dash.bottom {
+	top: 64px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+<script>
+
+</script>

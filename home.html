@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+		<div>
+			<h1 id="title">iPhone 12</h1>
+			<p id="sub">Recreated in HTML, CSS, JS</p>
+		</div>
+		
+		<div class="main">
+			<div class="side left">
+				<div class="dash left top"></div>
+
+				<div class="audio">
+					<div class="side ringer"></div>
+					<div class="side volume up"></div>
+					<div class="side volume down"></div>
+				</div>
+
+				<div class="dash left bottom"></div>
+			</div>
+      
+			<div class="iphone home" id="iphone">
+				<div class="dash top"></div>
+
+				<div class="inner" id="inner">
+					<div class="top">
+						<div class="left">
+							<p class="time">9:41</p>
+						</div>
+						<div class="center">	
+							<div class="mic">
+							</div>
+
+							<div class="cam">
+							</div>
+						</div>
+
+						<div class="right">
+							<ion-icon name="cellular" class="cellular"></ion-icon>
+
+							<img src="Images/Icons/wifi.png" class="wifi">
+
+							<img src="Images/Icons/battery.png" class="battery">
+						</div>
+					</div>
+
+
+					<div class="content">
+						<div class="icons">
+							<div class="appContainer">
+								<img src="Images/Apps/1.png" class="app">
+
+								<p>FaceTime</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/2.png" class="app">
+
+								<p>Calendar</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/3.png" class="app">
+
+								<p>Photos</p>
+							</div>
+
+							<div class="appContainer">
+								<a href="camera.html">
+									<img src="Images/Apps/4.png" class="app">
+								</a>
+
+								<p>Camera</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/5.png" class="app">
+
+								<p>Mail</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/6.png" class="app">
+
+								<p>Clock</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/7.png" class="app">
+
+								<p>Maps</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/8.png" class="app">
+
+								<p>Weather</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/9.png" class="app">
+
+								<p>Reminders</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/10.png" class="app">
+
+								<p>Notes</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/11.png" class="app">
+
+								<p>Stocks</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/12.png" class="app">
+
+								<p>News</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/13.png" class="app">
+
+								<p>Books</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/14.png" class="app">
+
+								<p>App Store</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/15.png" class="app">
+
+								<p>Podcasts</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/16.png" class="app">
+
+								<p>TV</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/17.png" class="app">
+
+								<p>Health</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/18.png" class="app">
+
+								<p>Home</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/19.png" class="app">
+
+								<p>Wallet</p>
+							</div>
+
+							<div class="appContainer">
+								<img src="Images/Apps/20.png" class="app">
+
+								<p>Settings</p>
+							</div>
+
+						</div>
+
+						<div class="dots">
+							<div class="dot"></div>
+
+							<div class="dot active"></div>
+
+							<div class="dot"></div>
+						</div>
+
+						<div class="dock">
+							<img src="Images/Apps/phone.png" class="app">
+
+							<img src="Images/Apps/safari.png" class="app">
+
+							<img src="Images/Apps/iMessage.png" class="app">
+
+							<img src="Images/Apps/music.png" class="app">
+						</div>
+					</div>
+
+					<div class="dash bottom"></div>
+				</div>
+			</div>
+			
+			<div class="side right">
+				<div class="dash right top"></div>
+
+				<!-- <a href="/index.html"> -->
+				<div class="side power" onclick="turnOffLock()"></div>
+				<!-- </a> -->
+
+				<div class="dash right bottom"></div>
+			</div>
+		</div>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+<style>
+
+.iphone.home {
+	background-image: url("Images/Backgrounds/homescreen.jpeg");
+}
+
+.iphone .inner .top .left .time {
+	font-size: 19px;
+}
+
+.iphone .inner .content .icons, .iphone .inner .content .dock {
+	display: flex;
+	gap: 20px;
+	margin-top: 40px;
+	flex-wrap: wrap;	
+	justify-content: center;
+}
+
+.iphone .inner .content .icons .appContainer {
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
+.iphone .inner .content .icons .appContainer .app, .iphone .inner .content .dock .app {
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	animation: appear 1s;
+}
+
+@keyframes appear {
+	0% { transform: scale(1.3); }
+	50% { transform: scale(0.95); }
+	100% { transform: scale(1); }
+}
+
+.iphone .inner .content .icons .appContainer .app:active, .iphone .inner .content .dock .app:active {
+	filter: brightness(0.7);
+}
+
+.iphone .inner .content .dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-top: 100px;
+}
+
+.iphone .inner .content .dots .dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #c8c5c569;
+	cursor: pointer;
+}
+
+.iphone .inner .content .dots .dot.active {
+	background-color: #fff;
+}
+
+.iphone .inner .content .dock {
+	background-color: #c8c5c569;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 25px;
+	width: 96%;
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+
+.iphone.home .dash.bottom {
+	top: 17px;
+}
+
+
+</style>
+
+

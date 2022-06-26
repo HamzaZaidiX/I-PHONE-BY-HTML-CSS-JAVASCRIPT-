@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Camera</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div>
+		<h1 id="title">iPhone 12</h1>
+		<p id="sub">Recreated in HTML, CSS, JS</p>
+	</div>
+
+	<div class="main">
+		<div class="side left">
+			<div class="dash left top"></div>
+
+			<div class="audio">
+				<div class="side ringer"></div>
+				<div class="side volume up"></div>
+				<div class="side volume down"></div>
+			</div>
+
+			<div class="dash left bottom"></div>
+		</div>
+
+		<div class="iphone iphoneCam" id="iphone">
+			<div class="dash top"></div>
+
+			<div class="inner" id="inner">
+				<div class="top">
+					<div class="left">
+						<!-- <p>Spectrum</p> -->
+					</div>
+					<div class="center">
+						<div class="mic">
+						</div>
+
+						<div class="cam">
+
+						</div>
+
+					</div>
+
+					<div class="right">
+						<div class="using"></div>
+						<!-- <ion-icon name="cellular" class="cellular"></ion-icon>
+
+							<img src="wifi.png" class="wifi">
+
+							<img src="battery.png" class="battery"> -->
+					</div>
+				</div>
+
+
+				<div class="content">
+					<div class="top">
+						<img src="Images/Icons/flash.png" class="flash">
+
+							<img src="Images/Icons/show.png" class="show">
+
+							<img src="Images/Icons/live.png" class="live">
+						</div>
+
+						<div class="bottom">
+							<div class="zoom">
+								<div class="level _5">.5</div>
+								
+								<div class="level _1">1<span class="x">x</span></div>
+
+								<div class="level _2">2</div>
+							</div>
+
+							<div class="mode">
+								<p>
+									<span class="bent slo">
+										<span class="last0">S</span>
+										<span class="last1">L</span>
+										<span class="last2">O</span>
+									</span>
+								-MO</p>
+								<p>VIDEO</p>
+								<p class="active">PHOTO</p>
+								<p>PORTRAIT</p>
+								<p>PA
+									<span class="bent no">
+										<span class="last1">N</span>
+										<span class="last0">O</span>
+									</span>
+								</p>
+							</div>
+
+							<div class="main">
+								<div class="photos"></div>
+
+								<div class="border">
+									<button class="capture"></button>
+								</div>
+
+								<div class="background">
+									<img src="Images/Icons/rotate.png" class="rotate">
+								</div>
+							</div>	
+						</div>
+					</div>
+				
+					<a href="/index.html" class="homeLink">
+						<div class="home cam"></div>
+					</a>
+
+					<div class="dash bottom"></div>
+				</div>
+			</div>
+
+			<div class="side right">
+				<div class="dash right top"></div>
+				
+					<div class="side power" onclick="turnOffLock()"></div>
+
+
+				<div class="dash right bottom"></div>
+			</div>
+		</div>
+
+    <script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+
+<style>
+
+.iphone.iphoneCam {
+	background-image: none;
+	background-color: #050007;
+
+}
+
+.iphone .inner {
+	background-image: url("Images/Backgrounds/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.iphone .inner .top {
+	background-color: #262626b0;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+.iphone .inner .top .right .using {
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	background-color: #4be640;
+	position: relative;
+	left: 5px;
+	top: -2px;
+}
+
+.iphone .inner .content .top {
+	display: flex;
+	justify-content: center;
+	background-color: #262626b0;
+	border-radius: 0;
+	height: 100px;
+	gap: 130px;
+	width: 100%;
+}
+
+.iphone .inner .content .top > * {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.iphone .inner .content .bottom {
+	background-color: #262626b0;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	height: 180px;
+	position: relative;
+	top: 184%;
+	width: 100%;
+}
+
+.iphone .inner .content .bottom .mode {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	font-family: 'Compact';
+	position: relative;
+	bottom: 20px;
+}
+
+.iphone .inner .content .bottom .mode > * {
+	cursor: pointer;
+}
+
+.iphone .inner .content .bottom .mode .active {
+	color: #f8d651;
+}
+
+
+.iphone .inner .content .bottom .mode .bent {
+	transform: rotateY(50deg);
+	display: inline-block;
+}
+
+.iphone .inner .content .bottom .mode .bent.slo {
+	position: relative;
+	left: 7px;
+}
+
+.iphone .inner .content .bottom .mode .bent.no {
+	position: relative;
+	right: 6px;
+}
+
+.iphone .inner .content .bottom .mode .bent .last2 {
+	color: #FBFAFB;
+}
+
+.iphone .inner .content .bottom .mode .bent .last1 {
+	color: #A8A8A8;
+}
+
+.iphone .inner .content .bottom .mode .bent .last0 {
+	color: #838383;
+}
+
+
+
+.iphone .inner .content .bottom .zoom {
+		border-radius: 20px;
+	background-color: #26262659;
+	width: 100px;
+	position: relative;
+	top: -50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* align-items: center; */
+	gap: 10px;
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	/* border: 2px solid; */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.iphone .inner .content .bottom .zoom .level {
+	border-radius: 50%;
+	background-color: #262626b0;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-family: 'Compact';
+	cursor: pointer;
+}
+
+.iphone .inner .content .bottom .zoom .level._1 {
+	font-size: 17px;
+	width: 30px;
+	height: 30px;
+	color: #f8d651;
+}
+
+.iphone .inner .content .bottom .zoom .level._1 .x {
+	font-size: 14px;
+}
+
+
+
+
+
+.iphone .inner .content .bottom .main {
+	display: flex;
+	justify-content: center;
+	box-shadow: none;
+	border-radius: 0;
+	gap: 90px;
+	align-items: center;
+}
+
+.iphone .inner .content .bottom .main .photos {
+	background-color: #161616;
+	width: 50px;
+	height: 50px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.iphone .inner .content .bottom .main .photos:active {
+	transform: scale(0.95);
+}
+
+.iphone .inner .content .bottom .main .border {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: 3px solid #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.iphone .inner .content .bottom .main .border .capture {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.iphone .inner .content .bottom .main .border .capture:active {
+	transform: scale(0.9);
+}
+
+.iphone .inner .content .bottom .main .background {
+	cursor: pointer;
+	transition-duration: 0.2s;
+	background-color: #262626b0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iphone .inner .content .bottom .main .background .rotate {
+	width: 25px;
+	height: 20px;
+}
+
+.iphone .inner .content .bottom .main .background .rotate:active {
+	transform: scale(0.9);
+}
+
+.iphone .inner .homeLink {
+	margin-top: 493px;
+}
+
+
+
+</style>
+
+
+<script>
+
+var timesClicked = 0;
+
+function turnOffCam() {
+	timesClicked++;
+
+	if (timesClicked % 2 == 1) { 
+		document.getElementById("inner").style.opacity = "0"; 
+		document.getElementById("iphone").style.backgroundImage = "none";   
+		document.getElementById("iphone").style.backgroundColor = "#000"; 
+		document.getElementById("inner").style.cursor = "pointer"; 
+	} else {
+		window.location.href = "/index.html";	
+	}
+
+	document.getElementById("iphone").addEventListener("click", () => {
+		window.location.href = "/index.html";			
+	});
+}
+</script>
