@@ -19,16 +19,9 @@ I also made the passcode screen, the homescreen, and even the camera app!
 
 ***
 
-## Links 🔗
+## Link which u can check it out! 🔗
 
 * [Site ==> iPhone-12.bookie0.repl.co](https://iPhone-12.bookie0.repl.co)
-
-* [Code ==> replit.com/@Bookie0/iPhone-12](https://replit.com/@Bookie0/iPhone-12#README.md)
-
-* [Spotlight/Apps page ==> replit.com/@Bookie0/iPhone-12?v=1](https://replit.com/@Bookie0/iPhone-12?v=1)
-
-* [Post ==>  replit.com/talk/share/CSS-iPhone/145191](https://replit.com/talk/share/CSS-iPhone/145191)
-
 
 ***
 
