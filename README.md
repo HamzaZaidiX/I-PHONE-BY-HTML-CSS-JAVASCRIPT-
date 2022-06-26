@@ -19,7 +19,7 @@ I also made the passcode screen, the homescreen, and even the camera app!
 
 ***
 
-## Link which u can check it out! 🔗
+## Link which u can check it out 👇! 
 
 * [Site ==> iPhone-12.bookie0.repl.co](https://iPhone-12.bookie0.repl.co)
 
