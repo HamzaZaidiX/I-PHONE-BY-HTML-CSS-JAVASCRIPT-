@@ -146,8 +146,11 @@ Well, that's about all! Make sure to let me know any comments, suggestions, or q
 | -> Click the camera icon for camera
 | -> Click the torch icon for torch**
 
-### **Have an excellent day!!!**
+# Licence
 
-# **Bye!** 👋
+MIT LICENCE
+Read `Licence` document for more details
 
-PLEASE! IF YOU ARE USING THIS CODE PLEASE GIVE **HAMZA ZAIDI** SOME CREDITS BY LIKE & GIVE A HEART!!! 😃👍💛
+# Bye! 👋
+
+HOPE U LIKE THIS PROJECT PLEASE! IF YOU ARE USING THIS CODE PLEASE GIVE **HAMZA ZAIDI** SOME CREDITS BY LIKE & GIVE A HEART!!! 😃👍💛
