@@ -1,16 +1,14 @@
 # iPhone 📱 Made By`HTML`, `CSS` & `JavaScript `! 
 
-## Hello there! 👋
+# Hello there! 👋
 
-Hope you you're going well! 
+I have created a [**Black color iPhone 12 Pro Max**](https://i-phone-12-shjz.vercel.app/) built with `HTML`, `CSS`, and some `JavaScript` !
 
-This is a black iPhone 12 made in `HTML`, `CSS`, and some `JavaScript `!
+## Here's how it looks like: 
 
-Here's how it looks like: 
+<a href="https://i-phone-12-shjz.vercel.app/"><img src="ReadmeImages/howItLooksLike.png" alt="iphone" /></a>
 
-![howItLooksLike](ReadmeImages/howItLooksLike.png)
-
-I tried to make it look as close as possible to the original iPhone:
+### I tried to make it look as close as possible to the original iPhone:
 
 ![real](ReadmeImages/real.png)
 
@@ -19,16 +17,17 @@ I also made the passcode screen, the homescreen, and even the camera app!
 
 ***
 
-## Link which u can check it out 👇! 
+## U can also check it out 👇! 
 
-* [Site ==> iPhone-12.bookie0.repl.co](https://iPhone-12.bookie0.repl.co)
+### [Live Site 🚀](https://i-phone-12-shjz.vercel.app/)
+### or check out on [Replit ==>](https://iPhone-12.bookie0.repl.co)
 
 ***
 
 ## Features ✨
 
 
-**Lockscreen**
+## **Lockscreen**
 
 ![lockscreen](ReadmeImages/lockscreen.png)
 
@@ -38,25 +37,25 @@ I also made the passcode screen, the homescreen, and even the camera app!
 - Torch and camera icon
 - Swipe up to unlock and home indicator animation**
 
-You can click the torch icon to 'turn it on' (doesn't actually work). You can also click the camera icon to go to the camera app, just like the real thing. Click the home indicator to unlock the iPhone.
+**You can click the torch icon to `'Turn it on'` (doesn't actually work). You can also click the camera icon to go to the camera app, just like the real thing. Click the home indicator to unlock the iPhone.**
 
 
-**Camera**
+## **Camera**:
 
 ![camera](ReadmeImages/camera.png)
 
-**-> Image
--> Using camera and microphone indicator
--> Flash, hidden, live icons
--> Zoom
--> Modes
--> Pictures
--> Capture
--> Rotate**
+-> **Image**
+-> **Using camera and microphone indicator**
+-> **Flash, hidden, live icons**
+-> **Zoom**
+-> **Modes**
+-> **Pictures**
+-> **Capture**
+-> **Rotate**
 
-You can click the capture button (satisfying)!
+**You can click the capture button (satisfying)!**
 
-**Passcode**
+## **Passcode**
 
 ![passcode](ReadmeImages/passcode.png)
 
@@ -65,9 +64,9 @@ You can click the capture button (satisfying)!
 - Numbers
 - Emergency and cancel buttons**
 
-You can actually type in a password and watch the dots fill in. Any password works.
+**You can actually type in a password and watch the dots fill in. Any password works.**
 
-**Home page**
+## **Home page**
 
 ![homepage](ReadmeImages/homepage.png)
 
@@ -76,7 +75,7 @@ You can actually type in a password and watch the dots fill in. Any password wor
 - 3 dots 
 - Menu bar**
 
-When the home page loads up, the apps have a kind of 'bounce-in' animation, similar to the one for iPhone. 
+**When the home page loads up, the apps have a kind of 'bounce-in' animation, similar to the one for iPhone.**
 
 ***
 
@@ -139,12 +138,12 @@ Well, that's about all! Make sure to let me know any comments, suggestions, or q
 
 ***
 
-## Here's what you can basically The Phone do:
+## Here's what you can basically The iPhone do:
 
-**| -> Click the power button on the right to turn the phone on/off
-| -> Click the home indicator on the bottom and type in a password to go to home
-| -> Click the camera icon for camera
-| -> Click the torch icon for torch**
+| -> **Click the power button on the right to turn the phone on/off**
+| -> **Click the home indicator on the bottom and type in a password to go to home**
+| -> **Click the camera icon for camera**
+| -> **Click the torch icon for torch**
 
 # Licence
 
