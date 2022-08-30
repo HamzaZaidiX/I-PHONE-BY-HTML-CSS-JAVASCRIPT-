@@ -1,4 +1,4 @@
-# iPhone 12 Pro Max 📱 Made By`HTML`, `CSS` & `JavaScript `! 
+# iPhone 12 Pro Max 📱 Made By `HTML`, `CSS` & `JavaScript` ! 
 
 # Hello there! 👋
 
